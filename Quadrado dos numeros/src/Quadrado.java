@@ -11,7 +11,9 @@ public class Quadrado {
             i++;
         }
         scanner.close();
-    
+        
+        System.out.println(" ");
+
         for(int valor : valores)
         System.out.print(valor + " ");
         System.out.println(" ");
