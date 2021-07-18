@@ -38,6 +38,8 @@ public class Pessoas{
             }
         }
         scanner.close();
+
+        System.out.println(" ");
         System.out.println("A altura é: " + altura + " o sexo é: " + sexo);
         System.out.println("A quantidade de Homens são: " + contM);
         System.out.println("A quantidade de Mulheres são: " + contF);

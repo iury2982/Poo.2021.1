@@ -4,6 +4,7 @@ public class Media {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner (System.in);
         System.out.println("Digite os numeros");
+        System.out.println("Para parar digite -1");
 
         double soma = 0;
         double Media = 0;
@@ -17,6 +18,6 @@ public class Media {
         }
         scanner.close();
         Media = soma/div;
-        System.out.println(Media);
+        System.out.println("A media é: " + Media);
     }
 }

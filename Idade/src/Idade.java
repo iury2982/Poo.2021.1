@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Idade{
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite a quantidade do vetor: ");
+        System.out.println("Digite a quantidade de pessoas que deseja analisar: ");
         int acc = 0;
         int limitador = 0;
         while(true){

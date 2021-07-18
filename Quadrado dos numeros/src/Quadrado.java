@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Quadrado {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite 5 numeros: ");
         int[] valores = new int[5];
         int i = 0;
         while(i<5){
